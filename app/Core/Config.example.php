@@ -63,6 +63,11 @@ class Config
         define('DB_HOST', 'localhost');
 
         /**
+         * Database port default is 3306
+         */
+        define('DB_PORT', '3306');		
+		
+        /**
          * Database name.
          */
         define('DB_NAME', 'dbname');

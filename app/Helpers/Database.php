@@ -48,7 +48,7 @@ class Database extends PDO
 		$user = $group['user'];
 		$pass = $group['pass'];
 
-        // ID for database based on the group information
+	    // ID for database based on the group information
         $id = "$type.$host.$port.$name.$user.$pass";
 
         // Checking if the same
